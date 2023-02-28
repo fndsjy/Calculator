@@ -1,0 +1,40 @@
+.container-fluid {
+    height: 40em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 6em);
+    border-radius: 1em;
+    padding: 3em 2em;
+    box-shadow: inset 5px 5px 15px #FFF, 5px 5px 15px #DDD;
+}
+
+.calculator #resultScreen {
+    grid-column: span 4;
+    color: #9E9E9E;
+    height: 2em;
+    font-size: 48px;
+    border-radius: 1em;
+    text-align: right;
+    padding-right: 1em;
+    margin-bottom: .5em;
+    border: 1px solid hsl(0, 0%, 95%);
+    box-shadow: inset 5px 5px 95px #FFF, inset 5px 4px 8px #DDD;
+}
+
+.calculator .button {
+    border-radius: 50px;
+    margin: .4em;
+    padding: .8em;
+    border: 1px solid #F3F3F3;
+    box-shadow: inset 5px 50px 15px #FFF, 5px 4px 10px #cfcece;
+}
+
+.calculator .calculate {
+    grid-column: span 2;
+    border-radius: 50px !important;
+}

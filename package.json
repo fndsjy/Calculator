@@ -1,0 +1,32 @@
+{
+  "name": "kalkulator",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "vite": "^1.0.0-rc.13",
+    "vite-plugin-react": "^4.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

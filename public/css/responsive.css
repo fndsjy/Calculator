@@ -1,0 +1,20 @@
+/* Responsive Breakpoint Extra Small Devices*/
+@media screen and (max-width: 575px){
+    .calculator {
+        grid-template-columns: repeat(3, 5em);
+        padding: 2em 1em;
+    }
+
+    .calculator #resultScreen {
+        grid-column: span 3;
+    }
+
+    .calculator .button {
+        margin: .4em;
+        padding: .6em;
+    }
+
+    .calculator .calculate {
+        grid-column: span 3;
+    }
+}
