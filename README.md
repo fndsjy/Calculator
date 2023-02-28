@@ -3,7 +3,8 @@ Creating a calculator online with React, user can calculate and delete numbers. 
 
 ### How to Get The Module Packages
 ```
-NPM init -y or Yarn init -y
+NPM init -y
+Yarn init -y
 ```
 
 ### How to Run in terminal VSCode
