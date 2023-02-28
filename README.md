@@ -4,6 +4,9 @@ Creating a calculator online with React, user can calculate and delete numbers. 
 ### How to Get The Module Packages
 ```
 NPM init -y
+```
+
+```
 Yarn init -y
 ```
 
